@@ -109,3 +109,48 @@ img{
     background-size: cover;
 
 }
+
+#recipie{
+    width: 100%;
+    padding-top: 100px;
+}
+.title-text{
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.recipie-container{
+   padding: 25px 200px;
+    display: flex; 
+    align-content: space-between;
+    justify-content: space-between;
+}
+.card{
+    width: 25%;
+    /* border: 1px solid #ccc; */
+    padding: 16px;
+    border-radius: 15px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    transition: all 0.5s;
+}
+.card:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.card-img{
+    width: 100%;
+    height: 100%;
+    
+}
+.card img{
+    width: 100%;
+    height: 200px;
+}
+.card-body{
+    padding-top: 40px;
+}
+.card-body h3{
+    font-size: 28px;
+    line-height: 16px;
+    color:#313131;
+}
