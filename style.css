@@ -154,3 +154,13 @@ img{
     line-height: 16px;
     color:#313131;
 }
+.counter-area{
+    box-sizing: border-box;
+    width: 90%;
+    display: flex;
+    padding: 40px 200px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    margin: 50px auto;
+    justify-content: space-between;
+}
+
