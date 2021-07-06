@@ -165,6 +165,7 @@ img{
 }
 
 input{
+    box-sizing: border-box;
     display: block;
     margin: 20px 0;
     width: 60%;
@@ -174,7 +175,18 @@ input{
     padding: 3px 10px;
     
 }
+input:focus, textarea:focus{
+    border: none;
+}
+input[type=submit]{
+    background: linear-gradient(to right, #f1720ac5, #f32f2fc2);
+   font-size: 16px;
+   font-weight: 600;
+   border: none;
+   cursor: pointer;
+}
 textarea{
+    box-sizing: border-box;
     display: block;
     margin: 20px 0;
     width:60%;
@@ -201,11 +213,18 @@ footer .footer-top div ul{
     font-weight: 700;
     /* text-align: left; */
 }
+.icons-area ul li{
+    display: inline-block;
+    font-size: 36px;
+    margin-top: -3px;
+
+}
 footer .footer-top div ul li{
     padding: 10px;
 }
 footer .footer-top div ul a{
     color: #444242;
+    transition: all 0.5s
 }
 footer .footer-top div ul li a:hover{
     color: #34f394
